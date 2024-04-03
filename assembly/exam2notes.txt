@@ -1,0 +1,7 @@
+exam notes:
+
+- pass large data by value or reference, but called function can alter data
+
+- when sending an int (4 bytes) and align it with 8 bytes
+
+-   

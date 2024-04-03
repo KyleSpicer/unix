@@ -1,0 +1,2 @@
+# converts .c file to .s (GNU GAS) syntax
+gcc -S -O0 -masm=intel -fverbose-asm file.c

@@ -1,0 +1,14 @@
+assembly day one notes:
+
+Command Lines:
+objdump 
+
+Man Page Notes For gcc:
+- read overall options section: 
+-c
+-S
+-E
+-o
+
+picking elf executable and disassembling it: objdump -Mintel -d helloworld
+-d for disassemble

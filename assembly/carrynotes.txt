@@ -1,0 +1,8 @@
+     mov rbx, 0                         # high order 64 bits of 128 bit int 1
+     mov rax, 0xffffffffffffffff        # low order 64 bits of 128 bit int 1
+
+     mov r9, 0                          # high order 64 bits of 128 bit int 2
+     mov r8, 0xffffffffffffffff         # low order 64 bits of 128 bit int 2
+
+     add rax, r8    # if causes carry, add that value with instruction
+     adc rbx, r9    # 
