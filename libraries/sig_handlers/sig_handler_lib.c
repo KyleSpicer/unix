@@ -117,6 +117,7 @@ block_signals(int num_signals, ...)
         perror("sigpromask");
         errno  = 0;
         result = 1;
+        goto EXIT_BLOCK_SIGNALS;
     }
 
 EXIT_BLOCK_SIGNALS:
